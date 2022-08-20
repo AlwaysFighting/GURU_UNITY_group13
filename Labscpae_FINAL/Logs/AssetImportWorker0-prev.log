@@ -15,11 +15,11 @@ C:/guru/GURU_FINAL/FINAL
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58007
+58041
 Successfully changed project path to: C:/guru/GURU_FINAL/FINAL
 C:/guru/GURU_FINAL/FINAL
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 159.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 241.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,39 +35,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003328 seconds.
+Registered in 0.002493 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 165.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 328.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.793 seconds
+- Completed reload, in  2.639 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009898 seconds.
+Registered in 0.032182 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.986 seconds
+- Completed reload, in  3.018 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3584 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.2 MB.
-System memory in use after: 134.3 MB.
+System memory in use before: 134.5 MB.
+System memory in use after: 134.6 MB.
 
 Unloading 132 unused Assets to reduce memory usage. Loaded Objects now: 4004.
-Total: 3.314400 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.119100 ms MarkObjects: 2.601800 ms  DeleteObjects: 0.327600 ms)
+Total: 7.244200 ms (FindLiveObjects: 0.588100 ms CreateObjectMapping: 0.332400 ms MarkObjects: 5.749300 ms  DeleteObjects: 0.571800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -82,20 +82,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Images/HappyEnding.jpg
-  artifactKey: Guid(eedb72e471e9cd145b012ff970178c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/HappyEnding.jpg using Guid(eedb72e471e9cd145b012ff970178c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc148c900f1138412013f1754dd2ef58') in 0.279519 seconds 
-  Import took 0.290157 seconds .
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(81b60f265a4a32846a1ab427bfc72db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(81b60f265a4a32846a1ab427bfc72db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843beb13065da88c8f1e91c2fa10ad6b') in 0.032983 seconds 
+  Import took 0.048287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.980372 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(81b60f265a4a32846a1ab427bfc72db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(81b60f265a4a32846a1ab427bfc72db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a91ff0e7dc24be442ef5dc2a15e4b53') in 0.004255 seconds 
+  Import took 0.012085 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009439 seconds.
+Registered in 0.009851 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -107,360 +115,16 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
+- Completed reload, in  1.721 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3538 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 134.0 MB.
+System memory in use before: 131.1 MB.
+System memory in use after: 131.3 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4013.
-Total: 2.859400 ms (FindLiveObjects: 0.354100 ms CreateObjectMapping: 0.106200 ms MarkObjects: 2.219800 ms  DeleteObjects: 0.178100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011277 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.651 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 134.0 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4015.
-Total: 3.946900 ms (FindLiveObjects: 0.376500 ms CreateObjectMapping: 0.126500 ms MarkObjects: 3.307600 ms  DeleteObjects: 0.135100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022786 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.545 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 134.0 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4017.
-Total: 5.572500 ms (FindLiveObjects: 0.682800 ms CreateObjectMapping: 0.446700 ms MarkObjects: 4.295600 ms  DeleteObjects: 0.145000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019911 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.686 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 134.0 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4019.
-Total: 6.449700 ms (FindLiveObjects: 0.732300 ms CreateObjectMapping: 0.379700 ms MarkObjects: 5.225300 ms  DeleteObjects: 0.110400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 488.566908 seconds.
-  path: Assets/Scenes/HappyEnding.unity
-  artifactKey: Guid(2ffd75735f19b3d41abcf57a80fcc83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/HappyEnding.unity using Guid(2ffd75735f19b3d41abcf57a80fcc83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6807d54f447d92c4ff1df771ad8dbc91') in 0.036291 seconds 
-  Import took 0.045816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.351548 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_darkroom.wav
-  artifactKey: Guid(ab8842b42fcaba04193bd8bc50c78cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_darkroom.wav using Guid(ab8842b42fcaba04193bd8bc50c78cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8f0bfa241f3910aa494939c58f34ea') in 0.084251 seconds 
-  Import took 0.094090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.489228 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Deep_space_1.wav
-  artifactKey: Guid(ab63369db59adbf46b2761daeeebe63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Deep_space_1.wav using Guid(ab63369db59adbf46b2761daeeebe63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e71192023a2bb61a3059a1e8810e484') in 0.023421 seconds 
-  Import took 0.033968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.308310 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_bell.wav
-  artifactKey: Guid(f6dbb0ca03157fc468a0e05ae6c7f510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_bell.wav using Guid(f6dbb0ca03157fc468a0e05ae6c7f510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76c4311e757708f22648ceb187db263') in 0.021738 seconds 
-  Import took 0.032892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.307549 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Burn.wav
-  artifactKey: Guid(107fd7e0b0bf76b47803afb29353f3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Burn.wav using Guid(107fd7e0b0bf76b47803afb29353f3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cb3f99faecfe6ea627267c96961b62') in 0.023814 seconds 
-  Import took 0.035802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.067411 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_claustrophobia.wav
-  artifactKey: Guid(d53d6acc1efce1e4296fdd63d421a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_claustrophobia.wav using Guid(d53d6acc1efce1e4296fdd63d421a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b53a7f69a376808f850953f225f3808') in 0.047530 seconds 
-  Import took 0.057106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004877 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_claustrophobia.wav
-  artifactKey: Guid(d53d6acc1efce1e4296fdd63d421a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_claustrophobia.wav using Guid(d53d6acc1efce1e4296fdd63d421a1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b53a7f69a376808f850953f225f3808') in 0.021348 seconds 
-  Import took 0.030876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.505250 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Creepy_monster.wav
-  artifactKey: Guid(12d1b38b31809714a9e53e77f79ac789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Creepy_monster.wav using Guid(12d1b38b31809714a9e53e77f79ac789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ab2097f6a0f1f271a58ca9da25808c') in 0.022309 seconds 
-  Import took 0.033227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.368362 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Deep_impacts.wav
-  artifactKey: Guid(ee2ebb4c4ca5fad40bdac20c3eeaae1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Deep_impacts.wav using Guid(ee2ebb4c4ca5fad40bdac20c3eeaae1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152c917af6ae7647edd6fbc85d9b1f30') in 0.026697 seconds 
-  Import took 0.037524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001367 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Deep_impacts.wav
-  artifactKey: Guid(ee2ebb4c4ca5fad40bdac20c3eeaae1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Deep_impacts.wav using Guid(ee2ebb4c4ca5fad40bdac20c3eeaae1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152c917af6ae7647edd6fbc85d9b1f30') in 0.017375 seconds 
-  Import took 0.026834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.004606 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Deep_impacts_stress.wav
-  artifactKey: Guid(64ed54603ea4bdc4c930044de83bdd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Deep_impacts_stress.wav using Guid(64ed54603ea4bdc4c930044de83bdd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a341846d575b28500cc01ea2c86ed5b8') in 0.021126 seconds 
-  Import took 0.031964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.312368 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Deep_space_2.wav
-  artifactKey: Guid(85d9ce10089b6b44fa191f403fc494c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Deep_space_2.wav using Guid(85d9ce10089b6b44fa191f403fc494c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65905801dd93f448ad0866462519086d') in 0.034701 seconds 
-  Import took 0.046041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004052 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Deep_space_2.wav
-  artifactKey: Guid(85d9ce10089b6b44fa191f403fc494c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Deep_space_2.wav using Guid(85d9ce10089b6b44fa191f403fc494c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65905801dd93f448ad0866462519086d') in 0.022353 seconds 
-  Import took 0.033240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.216807 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Deep_space_3.wav
-  artifactKey: Guid(46bb97a9f3c5f5b4fa47bea4a1f74b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Deep_space_3.wav using Guid(46bb97a9f3c5f5b4fa47bea4a1f74b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8e1c9b2626f8ff6502e07b8e2d3908') in 0.021946 seconds 
-  Import took 0.033639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.415725 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Rumble.wav
-  artifactKey: Guid(e93683c9c0a995d48b3f20927db0ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Rumble.wav using Guid(e93683c9c0a995d48b3f20927db0ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0eb269a283e1aa3465dfb7100f02a9') in 0.026890 seconds 
-  Import took 0.036996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.708143 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Run_1.wav
-  artifactKey: Guid(1848e5c0f65bc1542a32b7b6c41f30a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Run_1.wav using Guid(1848e5c0f65bc1542a32b7b6c41f30a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80cd8e10d46974e6840555d85af4036') in 0.019047 seconds 
-  Import took 0.026851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.183059 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Run_2.wav
-  artifactKey: Guid(10546d9649879d14e8277d84c34d122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Run_2.wav using Guid(10546d9649879d14e8277d84c34d122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6221d68a2decb5c5843496ff5b63d32c') in 0.022644 seconds 
-  Import took 0.032130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.401034 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Run_End.wav
-  artifactKey: Guid(9ffb473a8305d8741a911f9eef94a48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Run_End.wav using Guid(9ffb473a8305d8741a911f9eef94a48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bb303864fa484880bc66109a21b9f0') in 0.030690 seconds 
-  Import took 0.043387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003185 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_Run_End.wav
-  artifactKey: Guid(9ffb473a8305d8741a911f9eef94a48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_Run_End.wav using Guid(9ffb473a8305d8741a911f9eef94a48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bb303864fa484880bc66109a21b9f0') in 0.011849 seconds 
-  Import took 0.022002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.470892 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_scary.wav
-  artifactKey: Guid(93abc65fb0a7d9a47bb2f33a425869bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_scary.wav using Guid(93abc65fb0a7d9a47bb2f33a425869bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f504c436b19d2daf36aa4c01aa47f7') in 0.023489 seconds 
-  Import took 0.035543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001610 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_scary.wav
-  artifactKey: Guid(93abc65fb0a7d9a47bb2f33a425869bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_scary.wav using Guid(93abc65fb0a7d9a47bb2f33a425869bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f504c436b19d2daf36aa4c01aa47f7') in 0.016369 seconds 
-  Import took 0.027873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.116885 seconds.
-  path: Assets/Sound/Horror Elements/Ambient/Amb_underwater.wav
-  artifactKey: Guid(8b3c2e75b5d9f294185b63398af215d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound/Horror Elements/Ambient/Amb_underwater.wav using Guid(8b3c2e75b5d9f294185b63398af215d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944596f9950fea4d18214270319665c7') in 0.020451 seconds 
-  Import took 0.032898 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011813 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\guru\GURU_FINAL\FINAL\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.860 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3537 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4028.
-Total: 9.288000 ms (FindLiveObjects: 2.283800 ms CreateObjectMapping: 0.493000 ms MarkObjects: 6.320500 ms  DeleteObjects: 0.188500 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4007.
+Total: 5.569800 ms (FindLiveObjects: 0.682000 ms CreateObjectMapping: 0.287800 ms MarkObjects: 4.420900 ms  DeleteObjects: 0.177200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

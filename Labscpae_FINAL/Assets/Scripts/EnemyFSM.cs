@@ -10,7 +10,6 @@ public class EnemyFSM : MonoBehaviour
         Idle,
         Move,
         Attack,
-        Return,
         Damaged,
         Die
     }
@@ -97,9 +96,6 @@ public class EnemyFSM : MonoBehaviour
             case EnemyState.Attack:
                 Attack();
                 break;
-            case EnemyState.Return:
-                Return();
-                break;
             case EnemyState.Damaged:
                 //Damaged();
                 break;
@@ -127,14 +123,6 @@ public class EnemyFSM : MonoBehaviour
 
     void Move()
     {
-        // 만일 이동 거리 밖이라면...
-        if (Vector3.Distance(originPos, transform.position) > moveDistance)
-        {
-            // 상태를 복귀 상태로..
-            enemyState = EnemyState.Return;
-            print("상태 전환 : Move -> Return");
-        }
-
         // 만일 공격 범위 밖이라면..
         if (Vector3.Distance(player.transform.position, transform.position) > attackDistance)
         {
@@ -195,43 +183,11 @@ public class EnemyFSM : MonoBehaviour
         pm.OnDamage(attackPower);
     }
 
-    void Return()
-    {
-        // 만일, 원래 위치에 도달하지 않았다면, 그 방향으로 이동한다
-
-        Vector3 dist = originPos - transform.position;
-        dist.y = 0;
-
-        //if (Vector3.Distance(originPos, transform.position) > 0.1f)
-        if (dist.magnitude > 0.1f)
-        {
-            //Vector3 dir = (originPos - transform.position).normalized;
-            Vector3 dir = dist.normalized;
-            cc.Move(dir * moveSpeed * Time.deltaTime);
-            transform.forward = dir;
-        }
-        // 원래 위치에 도달하면, 대기 상태로 전환한다. 
-        else
-        {
-            transform.position = originPos;
-            transform.rotation = originRot;
-
-            enemyState = EnemyState.Idle;
-            print("상태 전환 : Return -> Idle");
-            anim.SetTrigger("MoveToIdle");
-
-
-            // 체력을 최대치로 회복한다.
-            currentHp = maxHp;
-        }
-    }
-
     // 데미지 처리 함수
     public void HitEnemy(int value)
     {
-        // 만일, 나의 상태가 피격, 복귀, 사망 상태일 때는 함수를 종료한다. 
-        if (enemyState == EnemyState.Damaged || enemyState == EnemyState.Return
-            || enemyState == EnemyState.Die)
+        // 만일, 나의 상태가 피격, 사망 상태일 때는 함수를 종료한다. 
+        if (enemyState == EnemyState.Damaged || enemyState == EnemyState.Die)
         {
             return;
         }

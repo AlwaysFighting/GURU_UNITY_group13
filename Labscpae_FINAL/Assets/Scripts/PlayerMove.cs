@@ -49,8 +49,6 @@ public class PlayerMove : MonoBehaviour
     // HP 텍스트 변수
     public Text hpText;
 
-    private static int HPValue;
-
     void Start()
     {
         // 캐릭터 컨트롤러 컴포넌트를 받아온다.
@@ -121,8 +119,6 @@ public class PlayerMove : MonoBehaviour
     public void OnDamage(int value)
     {
         hp -= value;
-        HPValue = hp - value;
-        hpText.text = "  " + HPValue;
 
         if (hp < 0)
         {

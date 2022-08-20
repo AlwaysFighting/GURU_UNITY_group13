@@ -126,7 +126,6 @@ public class Follower : MonoBehaviour
             anim.SetTrigger("MoveToIdle");
             print("상태 전환 : Move -> Idle");
         }
-
     }
 
     void Hide()
